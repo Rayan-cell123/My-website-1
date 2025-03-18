@@ -1,0 +1,664 @@
+<style class="css">body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>My name is Rayan.</p>
+</body>
+</html>
+<script class="js">document.addEventListener("DOMContentLoaded", function() {
+    alert("Hello! Welcome to my website.");
+    
+    let heading = document.querySelector("h1");
+    heading.style.color = "red"; // Change h1 color to red when page loads
+});
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>Click the button to see magic!</p>
+    <button onclick="changeText()">Click Me</button>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
+<script class="js">function changeText() {
+    let heading = document.querySelector("h1");
+    heading.innerText = "You clicked the button!";
+    heading.style.color = "green";
+}</script>
+<style class="css">/* style.css */
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        color: #007bff;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 3rem;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    </style>
+<div class="hero">
+    <h1>Welcome to My Beautiful Website</h1>
+    <p>Creating stunning web pages is now easy!</p>
+    <button onclick="alert('Thank you for clicking!')">Click Me</button>
+</div>
+<style class="css">.hero {
+    text-align: center;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 100px 20px;
+    border-radius: 10px;
+}
+
+button {
+    background: white;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0056b3;
+    color: white;
+}
+</style>
+<style class="css">@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .hero {
+        padding: 50px 10px;
+    }
+}
+</style>
+<style class="css">/* Add this to style.css */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .hero {
+        animation: fadeIn 1s ease-in-out;
+    }
+    </style>
+    <img src="https://source.unsplash.com/800x400/?technology" alt="Technology" class="hero-img">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<head><i class="fa fa-heart"></i> Made with Love
+</head>
+<style class="css">.hero-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+</style>
+<script class="js">document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function(event) {
+            event.preventDefault();
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+});
+</script>
+<footer>
+    <p>&copy; 2025 My Website | Built with ❤️</p>
+</footer>
+<style class="css">footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+</style>
+<head><link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Beautiful Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">My Website</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="toggle-dark-mode">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Beautiful Website</h1>
+        <p>Creating stunning web pages is now easy!</p>
+        <button onclick="changeText()">Click Me</button>
+        <img src="https://source.unsplash.com/800x400/?technology" alt="Technology" class="hero-img">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We create stunning and responsive websites to bring your ideas to life.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <i class="fa fa-code"></i>
+                <h3>Web Development</h3>
+                <p>We build modern websites with clean and responsive design.</p>
+            </div>
+            <div class="service">
+                <i class="fa fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>We design user-friendly interfaces for an amazing experience.</p>
+            </div>
+            <div class="service">
+                <i class="fa fa-mobile-alt"></i>
+                <h3>Mobile Optimization</h3>
+                <p>Your site will look great on any device.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Website | Built with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<style class="css">/* Global Styles */
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        transition: background 0.5s, color 0.5s;
+    }
+    
+    h1, h2, h3 {
+        text-align: center;
+    }
+    
+    /* Navbar */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background: #007bff;
+        color: white;
+    }
+    
+    nav .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    #toggle-dark-mode {
+        background: none;
+        border: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+    
+    /* Hero Section */
+    .hero {
+        text-align: center;
+        background: linear-gradient(to right, #007bff, #00c6ff);
+        color: white;
+        padding: 100px 20px;
+        border-radius: 10px;
+    }
+    
+    button {
+        background: white;
+        color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    button:hover {
+        background: #0056b3;
+        color: white;
+    }
+    
+    /* Services */
+    .services-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .service {
+        text-align: center;
+        padding: 20px;
+        width: 300px;
+    }
+    
+    .service i {
+        font-size: 3rem;
+        color: #007bff;
+    }
+    
+    /* Contact Form */
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    input, textarea {
+        width: 80%;
+        max-width: 500px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ddd;
+    }
+    
+    footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 50px;
+    }
+    
+    /* Dark Mode */
+    .dark-mode {
+        background-color: #222;
+        color: white;
+    }
+    
+    .dark-mode nav {
+        background: #444;
+    }
+    
+    .dark-mode button {
+        background: #444;
+        color: white;
+    }
+    </style>
+    <script class="js">// Change text function
+        function changeText() {
+            let heading = document.querySelector("h1");
+            heading.innerText = "You clicked the button!";
+            heading.style.color = "green";
+        }
+        
+        // Smooth scrolling
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    document.querySelector(this.getAttribute("href")).scrollIntoView({
+                        behavior: "smooth"
+                    });
+                });
+            });
+        });
+        
+        // Dark mode toggle
+        const darkModeBtn = document.getElementById("toggle-dark-mode");
+        darkModeBtn.addEventListener("click", function() {
+            document.body.classList.toggle("dark-mode");
+        });
+        </script>
+        <head><!-- SwiperJS for Image Slider -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+            
+            <!-- AOS for Scroll Animations -->
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            
+            <!-- EmailJS for Sending Emails -->
+            <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+            </head>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="image1.jpg"></div>
+                    <div class="swiper-slide"><img src="image2.jpg"></div>
+                    <div class="swiper-slide"><img src="image3.jpg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+<script class="js">var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: { delay: 2500, disableOnInteraction: false },
+    pagination: { el: ".swiper-pagination", clickable: true },
+});
+</script>            
+<style class="css">.parallax {
+    background: url('background-image.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+}
+</style>
+<scipt class="js">AOS.init();
+</scipt>
+<div data-aos="fade-up">This will fade in!</div>
+<script class="js">emailjs.init("YOUR_USER_ID");
+
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+    
+        emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+        .then(() => alert("Email Sent Successfully!"), err => console.error(err));
+    });
+    </script>
+    <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <button id="back-to-top" onclick="scrollToTop()">↑</button>
+<style class="css">#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+</style>    
+<script class="js">window.onscroll = function() {
+    document.getElementById("back-to-top").style.display = window.scrollY > 300 ? "block" : "none";
+};
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+</script>
+<style class="css">body { cursor: none; }
+    .cursor {
+        width: 20px;
+        height: 20px;
+        background: red;
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+        transform: translate(-50%, -50%);
+    }
+    </style>
+    <script class="js">const cursor = document.querySelector(".cursor");
+        document.addEventListener("mousemove", e => {
+            cursor.style.top = e.pageY + "px";
+            cursor.style.left = e.pageX + "px";
+        });
+        </script>
+        <h1 id="typing-text"></h1>
+<script class="js">const text = "Welcome to My Iconic Website!";
+    let i = 0;
+    function typeEffect() {
+        if (i < text.length) {
+            document.getElementById("typing-text").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeEffect, 100);
+        }
+    }
+    typeEffect();
+    </script>
+    <div class="testimonial">
+        <p id="testimonial-text"></p>
+        <p id="testimonial-author"></p>
+    </div>
+<script class="js">const testimonials = [
+    { text: "This website is amazing!", author: "Alice" },
+    { text: "I love the animations!", author: "Bob" },
+    { text: "Best site I've ever seen!", author: "Charlie" }
+];
+
+let index = 0;
+function showTestimonial() {
+    document.getElementById("testimonial-text").innerText = testimonials[index].text;
+    document.getElementById("testimonial-author").innerText = `- ${testimonials[index].author}`;
+    index = (index + 1) % testimonials.length;
+}
+setInterval(showTestimonial, 3000);
+showTestimonial();
+</script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script class="js">const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+    
+    // Create a cube
+    const geometry = new THREE.BoxGeometry();
+    const material = new THREE.MeshBasicMaterial({ color: 0x007bff, wireframe: true });
+    const cube = new THREE.Mesh(geometry, material);
+    scene.add(cube);
+    
+    camera.position.z = 3;
+    
+    // Animation
+    function animate() {
+        requestAnimationFrame(animate);
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+        renderer.render(scene, camera);
+    }
+    animate();
+    </script>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+<style class="css">#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    border-top: 5px solid blue;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hidden {
+    display: none;
+}
+</style>    
+<script class="js">window.addEventListener("load", function () {
+    document.getElementById("preloader").classList.add("hidden");
+});
+</script>
+<style class="css">.glass-effect {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.neumorphism {
+    background: #e0e0e0;
+    box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+}
+</style>
+<div class="glass-effect">This is a Glassmorphism effect</div>
+<div class="neumorphism">This is a Neumorphism effect</div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<div id="particles-js"></div>
+<style class="css">#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000;
+}
+</style>
+<script class="js">particlesJS("particles-js", {
+    particles: {
+        number: { value: 80 },
+        size: { value: 3 },
+        move: { speed: 2 },
+        color: { value: "#ffffff" },
+    }
+});
+</script>
+<div class="floating-icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+</div>
+<style class="css">.floating-icons {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.floating-icons i {
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.floating-icons i:hover {
+    transform: scale(1.2);
+    color: #007bff;
+}
+</style>
+<div class="floating-icons">
+    <a href="https://www.facebook.com/rayane.amine.313/" target="_blank">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://x.com/M4Rayan" target="_blank">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.instagram.com/mad__ryan/?next=%2F" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+
